@@ -1,0 +1,67 @@
+[
+  {
+    'repeat(5,10)': {
+      ID: '{{index([1])}}',
+      Text: '{{lorem(1,"sentences")}}',
+      Note: '{{lorem(3,"paragraphs")}}',
+      Date: '{{moment(this.date(new Date(2014, 0, 1), new Date())).format()}}',
+      Bool: '{{bool()}}',
+      Number: '{{integer(1,100)}}',
+      Choice: '{{random("First Choice", "Second Choice", "Third Choice")}}',
+      ChoiceMulti: function(){
+      	var array = [];
+        array.push("First Choice");
+        array.push("Second Choice");
+        array.push("Third Choice");
+        return array;
+      },
+      DelimitedString: function(){
+      	var array = [], numItems=3, delim=',';
+        array.push("First Choice");
+        array.push("Second Choice");
+        array.push("Third Choice");
+        array.push("Fourth Choice");
+        array.push("Fifth Choice");
+        array.push("Sixth Choice");
+        return array
+          .map(x => ({ x, r: Math.random() }))
+          .sort((a, b) => a.r - b.r)
+          .map(a => a.x)
+          .slice(0, numItems)
+          .join(delim);
+      },
+      Lookup: '{{guid()}}|{{lorem(3,"words")}}',
+      LookupMulti:function(){ 
+      	var count = 3;
+        var items = [];
+        for (i=0;i<count;i++){
+        	items.push(guid() + "|" + lorem(3,"words"));
+        }
+        return items.join(" ");
+      },
+      Html: function(){
+      	var html = "<div>";
+        html += "<strong>" + lorem(3,"words") + "</strong>";
+        html += "<p>" + lorem(1,"paragraph") + "</p>";
+        html += "</div>";
+        return html;
+      },
+      Image: function(){
+        var dummyImages = [
+          "https://lajoyalink.com/wp-content/uploads/2018/03/Movie.jpg",
+          "https://vincentloy.files.wordpress.com/2017/02/movies.jpg",
+          "https://simbania.files.wordpress.com/2018/02/bp_movie.jpeg",
+          "http://www.tasteofcinema.com/wp-content/uploads/2015/05/donnie-darko.jpg",
+          "https://edge.alluremedia.com.au/m/l/2013/03/TVMovies.jpg",
+          "https://brakpanherald.co.za/wp-content/uploads/sites/27/2013/12/2014-Movies-300-Rise-Of-An-Empire.jpg",
+          "https://cdn.pastemagazine.com/www/articles/2017/03/27/animated-movies-netflix.jpg",
+          "http://img1.looper.com/img/uploads/2017/07/sci-fi-movies-blow-everyone-away-2018-780x438.jpg"
+        ];
+        var max = dummyImages.length - 1;
+        var rand = Math.floor(Math.random(max) * Math.floor(max));
+      	return "<img alt='' src='" + dummyImages[rand] + "' >";
+      },
+      Url: 'http://{{lorem(1, \"words\")}}.com'
+    }
+  }
+]

@@ -1,0 +1,158 @@
+@import "./material-kit/colors";
+
+$menu-disappears-width: 1814px; // share a breakpoint with _mega-menu.css
+$nav-two-columns-width: 800px;
+
+.mobile-menu {
+  @media only screen and (min-width: $menu-disappears-width) {
+    display: none;
+  }
+
+  *,
+  :after,
+  :before {
+    box-sizing: border-box
+  }
+
+  ul {
+    padding-left: 0.5rem;
+  }
+
+  li {
+    list-style: none;
+    padding: 0;
+  }
+
+  a,
+  a:active,
+  a:visited {
+    text-decoration: none;
+  }
+
+  button {
+    font-size: 3rem;
+    color: white;
+    background-color: transparent;
+    padding: 0;
+  }
+
+  .slide-nav {
+    ul.lvl1 {
+      > li {
+        margin-bottom: 1rem;
+      }
+
+      width: 100%;
+    }
+
+    ul.lvl2 {
+      li {
+        -webkit-column-break-inside: avoid;
+        page-break-inside: avoid;
+        break-inside: avoid;
+      }
+
+      // two columns on medium + screens
+      @media only screen and (min-width: $nav-two-columns-width) {
+        columns: 2;
+      }
+      // remove multi-column clipping issues in Chrome
+      display: inline-block;
+      width: 100%;
+      // end clipping issues fix
+    }
+
+    div {
+      a, a:active, a:visited, a:hover {
+        color: white !important;
+      }
+      
+      &.lvl1-text {
+        a, .md-icon {
+          color: $theme-secondary !important;
+          margin: 0 10px 0 0;
+        }
+
+        a {
+          font-size: x-large;
+          font-weight: bold;
+          text-transform: uppercase;
+          line-height: 1.5rem;
+        }
+        
+        display: flex;
+        align-items: center;
+      }
+
+      &.lvl2-text {
+        font-size: large;
+        font-weight: 500;
+      }
+
+      &.lvl3-text{
+        font-size: medium;
+      }
+
+      // link underline animation styling
+      a {
+        position: relative;
+      }
+
+      &:not(.anchor):after, a:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 1px;
+        bottom: -4px;
+        left: 0;
+        background-color: white;
+        transform-origin: bottom right;
+        transition: transform 0.2s ease-out;
+      }
+
+      &:not(.anchor):hover:after, a:hover:after, a:focus-visible:after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+      }
+
+      display: inline-block;
+      width: fit-content;
+      // end link animation styling
+      margin-bottom: 10px;
+    }
+
+    .close-mobile-nav.close-btn {
+      margin-left: auto; 
+      margin-right: 0;
+    }
+
+    // drawer slide in animation
+    &.open {
+      // mobile nav menu visible breakpoint
+      @media only screen and (min-width: $nav-two-columns-width) {
+        width: $nav-two-columns-width;
+      }
+
+      visibility: visible;
+      width: 500px;
+    }
+
+    transition: width 0.2s ease, visibility 0.2s ease;
+    width: 0;
+    visibility: hidden;
+    // end drawer slider animation styling
+
+    max-width: 100%;
+    background-color: $theme-primary;
+    box-shadow: 5px 5px 10px black;
+    height: 100vh;
+    z-index: 1000; // above toolbox slider button
+    position: fixed;
+    overflow: auto;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 1rem;
+  }
+}

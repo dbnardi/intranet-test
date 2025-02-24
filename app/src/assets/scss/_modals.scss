@@ -1,0 +1,54 @@
+@import "./material-kit/colors";
+.modal-container{
+    .modal-header{
+        h3{
+            margin-top:0 !important;
+            color: $theme-primary;
+        }
+    }
+    .modal-body{
+      max-height: 600px;
+      overflow-y: scroll;
+    }
+}
+.view-details-modal {
+    height: fit-content;
+    width: clamp(600px, 80%, 1800px);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 401;
+  
+    .label {
+      font-weight: 800;
+      margin-top: 20px;
+    }
+    .value {
+      font-size: 1.2rem;
+      font-weight: 300;
+    }
+    .md-icon {
+      margin-right: 15px;
+    }
+    .modal-content {
+      padding-bottom: 24px;
+    }
+  }
+
+  .ms-dlgCloseBtnImg{
+    max-width: inherit;
+  }
+  .ms-dlgTitleBtns{
+    width:30px;
+  }
+
+  .modal-content{
+    a{
+      text-decoration: underline;
+    }
+  }
+  
+  .modal-wrapper{
+    z-index: 401 !important;
+  }

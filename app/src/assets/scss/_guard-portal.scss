@@ -1,0 +1,76 @@
+@import "./material-kit/colors";
+
+.guard-portal {
+
+  .filters {
+
+    .el-date-editor, .el-select {
+      width: 100% !important;
+    }
+  
+    .el-checkbox {
+      padding-top: 1rem;
+    }
+  
+    .el-checkbox__label {
+      font-size: 1.2rem;
+    }
+
+    button.md-primary {
+      margin-top: 1rem;
+    }
+  }
+
+  .el-table .not-in-row {
+    background: #bfd7ed;
+  }
+
+  .el-table .in-row {
+    background: #fbe2b4;
+  }
+  
+  .el-table .out-row {
+    background: #d5f9c1;
+  }
+
+  .el-table .group-header td {
+    border-top: 5px solid #fff;
+    font-weight: 600;
+  }
+
+  .mix {
+    background-color: #F5F7FA;
+  }
+
+  .selected-group {
+    margin-bottom: 1.5rem;
+
+    .md-layout {
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  .selected-visitors {
+    
+    .md-layout {
+      margin-bottom: 0.5rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid #ddd;
+    }
+  } 
+
+  .summary-label {
+    font-weight: 600;
+  }
+
+  .el-button--mini {
+    margin: 5px 0 5px 0 !important;
+    width: 85px;
+  }
+  .el-table td {
+    padding: 0px;
+  }
+  .el-link--inner {
+    font-size: 14px;
+  }
+}

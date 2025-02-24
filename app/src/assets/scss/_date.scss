@@ -1,0 +1,31 @@
+.time-icon {
+    font-size: 0.4rem;
+    /* change icon size */
+    display: block;
+    width: 3rem;
+    min-width: 3rem;
+    max-height: 7em;
+    margin: 5px 12px 0 0;
+
+    & * {
+        display: block;
+        width: 100%;
+        font-size: 1rem;
+        font-style: normal;
+        text-align: center;
+    }
+
+    p {
+        margin: 0 !important;
+        position: relative;
+        top: -6px;
+        font-size: 1.4rem !important;
+        line-height: 1.5em !important;
+    }
+
+    span {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 0.2em;
+    }
+}

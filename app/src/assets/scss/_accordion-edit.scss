@@ -1,0 +1,51 @@
+.accordion-edit {
+  padding-top: 1rem;
+
+  button {
+    margin-left: 0 !important;
+    margin-right: 0.5rem;
+  }
+
+  .accordion-label {
+    display: block;
+    color: #777 !important;
+  }
+
+  .accordions {
+    margin-bottom: 1rem;
+  }
+
+  .accordion {
+    margin-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    
+    .accordion-header {
+      display: flex;
+
+      span {
+        margin-left: auto;
+        padding: 0.5rem;
+        background-color: green;
+        color: #fff;
+      }
+    } 
+
+    .accordion-section {
+      margin-top: 0.5rem;
+      padding: 1rem;
+      border: 1px dotted #ccc;
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  .field {
+    margin-bottom: 0.5rem;
+    display: grid;
+  }
+  
+  .section-button {
+    margin-top: 0.5rem;
+  }
+}

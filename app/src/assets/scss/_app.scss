@@ -1,0 +1,58 @@
+$grid-spacing: 20px;
+$grid-row-height: 490px;
+
+@media (max-width: 1300px) {
+  .top-row {
+      flex-direction: column;
+  }
+  .top-row .carousel {
+      margin-bottom: 60px;
+      max-width: 100%;
+  }
+}
+
+.home-card-grid {
+  margin-top: $grid-spacing;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: $grid-row-height;
+  grid-gap: $grid-spacing;
+}
+
+.announcements {
+  grid-row: 1 / 3; // span two rows
+
+  .announcement {
+    display: flex;
+
+    li {
+      width: 100%;
+    }
+  }
+
+  .dismiss {
+    cursor: pointer;
+    background-color: white;
+    margin: 10px 0;
+    height: 70px;
+  }
+}
+
+.messages-flipboard-container {
+  display: flex;
+  flex-direction: column;
+
+  .exec-messages {
+    flex-grow: 1;
+  }
+}
+
+.social-embassy_closures-container {
+  display: grid;
+  grid-gap: $grid-spacing;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr; // two equal rows
+}
+.o365cs-rsp-tw-sm-hide .o365cs-rsp-tn-hide{
+  margin: left 300px !important;
+}

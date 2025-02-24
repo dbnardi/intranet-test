@@ -1,0 +1,24 @@
+@import "./material-kit/colors";
+
+nav {
+  background: $theme-primary !important;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  margin-top: auto;
+  height: 64px;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 2.7rem;
+  padding-right: 2.7rem;
+  
+  img {
+    max-height: 55px;
+    margin-top: 5px;
+    padding-left: 2.7rem;
+  }
+
+  .search {
+    display: flex;
+    padding-right: 15px;
+    margin-left:auto;
+  }
+}

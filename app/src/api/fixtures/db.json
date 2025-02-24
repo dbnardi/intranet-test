@@ -1,0 +1,685 @@
+{
+  "Users": [
+    {
+      "Id": 1,
+      "AccountName": "mtpdev\\dnardi",
+      "DisplayName": "Daniel Nardi",
+      "Email": "d.nardi@mtpservices.com.au",
+      "PersonalUrl": "http://ha-dev5.australiasoutheast.cloudapp.azure.com:8080/personal/spsetup/",
+      "PictureUrl": null,
+      "Title": "Daniel Nardi",
+      "groups": [
+        {
+          "Id": 22,
+          "IsHiddenInUI": false,
+          "LoginName": "Group Name",
+          "Title": "PMIDSchedulers",
+          "PrincipalType": 8,
+          "AllowMembersEditMembership": false,
+          "AllowRequestToJoinLeave": false,
+          "AutoAcceptRequestToJoinLeave": false,
+          "Description": "Group description",
+          "OnlyAllowMembersViewMembership": false,
+          "OwnerTitle": "Daniel Nardi",
+          "RequestToJoinLeaveEmailSetting": null
+        },
+        {
+          "Id": 21,
+          "IsHiddenInUI": false,
+          "LoginName": "Group Name",
+          "Title": "Schedulers",
+          "PrincipalType": 8,
+          "AllowMembersEditMembership": false,
+          "AllowRequestToJoinLeave": false,
+          "AutoAcceptRequestToJoinLeave": false,
+          "Description": "Group description",
+          "OnlyAllowMembersViewMembership": false,
+          "OwnerTitle": "Daniel Nardi",
+          "RequestToJoinLeaveEmailSetting": null
+        }
+      ],
+      "UserProfileProperties": {
+        "results": [
+          {
+            "Key": "UserProfile_GUId",
+            "Value": "ebe47118-a498-4b19-b641-eb17a2f8e316",
+            "ValueType": "Edm.String"
+          },
+          {
+            "Key": "AccountName",
+            "Value": "mtpdev\\dnardi",
+            "ValueType": "Edm.String"
+          },
+          {
+            "Key": "FirstName",
+            "Value": "Daniel",
+            "ValueType": "Edm.String"
+          },
+          {
+            "Key": "LastName",
+            "Value": "Nardi",
+            "ValueType": "Edm.String"
+          },
+          {
+            "Key": "PreferredName",
+            "Value": "Daniel Nardi",
+            "ValueType": "Edm.String"
+          },
+          {
+            "Key": "WorkPhone",
+            "Value": "04234293443",
+            "ValueType": "Edm.String"
+          },
+          {
+            "Key": "Department",
+            "Value": "Some Department",
+            "ValueType": "Edm.String"
+          },
+          {
+            "Key": "Title",
+            "Value": "Mr",
+            "ValueType": "Edm.String"
+          },
+          {
+            "Key": "SPS-JobTitle",
+            "Value": "Senior Service",
+            "ValueType": "Edm.String"
+          },
+          {
+            "Key": "SPS-Department",
+            "Value": "Some Department",
+            "ValueType": "Edm.String"
+          },
+          {
+            "Key": "Manager",
+            "Value": "",
+            "ValueType": "Edm.String"
+          },
+          {
+            "Key": "AboutMe",
+            "Value": "I am a thing",
+            "ValueType": "Edm.String"
+          },
+          {
+            "Key": "PictureURL",
+            "Value": "",
+            "ValueType": "Edm.String"
+          },
+          {
+            "Key": "WorkEmail",
+            "Value": "spsetup@mtpdev.com",
+            "ValueType": "Edm.String"
+          },
+          {
+            "Key": "Branch",
+            "Value": "Awesome Branch",
+            "ValueType": "Edm.String"
+          },
+          {
+            "Key": "SPS-Location",
+            "Value": "",
+            "ValueType": "Edm.String"
+          }
+        ]
+      },
+      "UserUrl": "http://ha-dev5.australiasoutheast.cloudapp.azure.com:8080/Person.aspx?accountname:mtpdev%5Cspsetup"
+    },
+    {
+      "Id": 2,
+      "AccountName": "mtpdev\\dnardi",
+      "DisplayName": "Daniel Nardi 2",
+      "Email": "d.nardi2@mtpservices.com.au",
+      "PersonalUrl": "http://ha-dev5.australiasoutheast.cloudapp.azure.com:8080/personal/spsetup/",
+      "PictureUrl": null,
+      "Title": "Daniel Nardi2",
+      "groups": [
+        {
+          "Id": 21,
+          "IsHiddenInUI": false,
+          "LoginName": "Group Name",
+          "Title": "Administrators",
+          "PrincipalType": 8,
+          "AllowMembersEditMembership": false,
+          "AllowRequestToJoinLeave": false,
+          "AutoAcceptRequestToJoinLeave": false,
+          "Description": "Group description",
+          "OnlyAllowMembersViewMembership": false,
+          "OwnerTitle": "Daniel Nardi",
+          "RequestToJoinLeaveEmailSetting": null
+        }
+      ],
+      "UserProfileProperties": {
+        "results": [
+          {
+            "Key": "UserProfile_GUId",
+            "Value": "ebe47118-a498-4b19-b641-eb17a2f8e316",
+            "ValueType": "Edm.String"
+          },
+          {
+            "Key": "AccountName",
+            "Value": "mtpdev\\dnardi",
+            "ValueType": "Edm.String"
+          },
+          {
+            "Key": "FirstName",
+            "Value": "Daniel",
+            "ValueType": "Edm.String"
+          },
+          {
+            "Key": "LastName",
+            "Value": "Nardi",
+            "ValueType": "Edm.String"
+          },
+          {
+            "Key": "PreferredName",
+            "Value": "Daniel Nardi",
+            "ValueType": "Edm.String"
+          },
+          {
+            "Key": "WorkPhone",
+            "Value": "04234293443",
+            "ValueType": "Edm.String"
+          },
+          {
+            "Key": "Department",
+            "Value": "Some Department",
+            "ValueType": "Edm.String"
+          },
+          {
+            "Key": "Title",
+            "Value": "Mr",
+            "ValueType": "Edm.String"
+          },
+          {
+            "Key": "SPS-JobTitle",
+            "Value": "Senior Service",
+            "ValueType": "Edm.String"
+          },
+          {
+            "Key": "SPS-Department",
+            "Value": "Some Department",
+            "ValueType": "Edm.String"
+          },
+          {
+            "Key": "Manager",
+            "Value": "",
+            "ValueType": "Edm.String"
+          },
+          {
+            "Key": "AboutMe",
+            "Value": "I am a thing",
+            "ValueType": "Edm.String"
+          },
+          {
+            "Key": "PictureURL",
+            "Value": "",
+            "ValueType": "Edm.String"
+          },
+          {
+            "Key": "WorkEmail",
+            "Value": "spsetup@mtpdev.com",
+            "ValueType": "Edm.String"
+          },
+          {
+            "Key": "Branch",
+            "Value": "Awesome Branch",
+            "ValueType": "Edm.String"
+          },
+          {
+            "Key": "SPS-Location",
+            "Value": "",
+            "ValueType": "Edm.String"
+          }
+        ]
+      },
+      "UserUrl": "http://ha-dev5.australiasoutheast.cloudapp.azure.com:8080/Person.aspx?accountname:mtpdev%5Cspsetup"
+    }
+  ],
+  "SecurityClassification": [
+    "Official",
+    "Official: Sensitive"
+  ],
+  "BIOBranch": [
+    "Official",
+    "Official: Sensitive"
+  ],
+  "SecurityCaveat": [
+    "Sensitive: Personal"
+  ],
+  "SecurityReleasability": [
+    "AGAO"
+  ],
+  "Category%20Colours": [
+    {
+      "ProductCategory": "Intelligence Assessment",
+      "Title": "red"
+    }
+  ],
+  "ProductCategory": [
+    "Intelligence Assessment",
+    "Intelligence Brief",
+    "Outreach Report",
+    "National Assessment",
+    "Biography",
+    "OSC Product",
+    "Digest"
+  ],
+  "PMIDCategory": [
+    "PMID",
+    "Operational Update",
+    "Digest"
+  ],
+  "Invalid%20Dates": [
+    {
+      "InvalidDateStart": "2020-12-14T00:00:00Z",
+      "InvalidDateEnd": "2020-12-24T00:00:00Z",
+      "Title": "Irure ea anim aliquip ea veniam est non nulla aliquip. Sit sit ipsum eiusmod occaecat ea sunt voluptate qui amet elit nulla.",
+      "SubSites": "Both"
+    },
+    {
+      "InvalidDateStart": "2020-12-14T00:00:00Z",
+      "InvalidDateEnd": "2020-12-24T00:00:00Z",
+      "Title": "sdklfjsllksjd flksjd flksd jflsdk jfsldk jflsdkj flsdk fjsldkjf dkfjlsdkjf  ",
+      "SubSites": "Both"
+    },
+    {
+      "InvalidDateStart": "2020-12-14T00:00:00Z",
+      "InvalidDateEnd": "2020-12-24T00:00:00Z",
+      "Title": "sdklfjsllksjd flksjd flksd jflsdk jfsldk jflsdkj flsdk fjsldkjf dkfjlsdkjf  ",
+      "SubSites": "Both"
+    },
+    {
+      "InvalidDateStart": "2020-12-14T00:00:00Z",
+      "InvalidDateEnd": "2020-12-24T00:00:00Z",
+      "Title": "sdklfjsllksjd flksjd flksd jflsdk jfsldk jflsdkj flsdk fjsldkjf dkfjlsdkjf  ",
+      "SubSites": "Both"
+    },
+    {
+      "InvalidDateStart": "2020-12-14T00:00:00Z",
+      "InvalidDateEnd": "2020-12-25T00:00:00Z",
+      "Title": "1sdklfjsllksjd flksjd flksd jflsdk jfsldk jflsdkj flsdk fjsldkjf dkfjlsdkjf  ",
+      "SubSites": "Both"
+    }
+  ],
+  "PMID%20Publishing%20Schedule": [
+    {
+      "Title": "test 555 h4kjh42kjh 324k kj2sdf sdf sdfsdf sdfsd sd fsd fsdtest 555 h4kjh42kjh 324k kj2sdf sdf sdfsdf sdfsd sd fsd fsdtest 555 h4kjh42kjh 324k kj2sdf sdf sdfsdf sdfsd sd fsd fsdtest 555 h4kjh42kjh 324k kj2sdf sdf sdfsdf sdfsd sd fsd fsd",
+      "Id": 8,
+      "RequesterId": 1,
+      "ProposedPublicationDate": "2020-10-30T00:00:00.000Z",
+      "ScheduledPublicationDate": "2021-01-18T00:00:00.000Z",
+      "Sources": "",
+      "ProductPortalPurpose": "",
+      "ProductQuestion": "",
+      "InfoRequirements": "",
+      "ProductCategory": "PMID",
+      "SecurityClassification": "Official",
+      "SecurityReleasability": "",
+      "ProductLeadAnalysts": "[{\"id\":2,\"title\":\"Daniel Nardi2\"}]",
+      "Branches": "[\"Official\"]",
+      "Cancelled": true,
+      "Published": false,
+      "ProductComments": "[{\"userId\":1,\"content\":\"blah\",\"replies\":[{\"userId\":1,\"content\":\"sdafasdfasdf\",\"datetime\":\"2020-10-19T05:19:13.505Z\"},{\"userId\":1,\"content\":\"werewrw\",\"datetime\":\"2020-10-19T05:18:33.473Z\"},{\"userId\":1,\"content\":\"wahoo\",\"datetime\":\"2020-10-19T05:18:07.417Z\"},{\"userId\":1,\"content\":\"hello\",\"datetime\":\"2020-10-19T05:17:21.559Z\"}],\"datetime\":\"2020-10-19T05:03:56.584Z\"},{\"userId\":1,\"content\":\"test\",\"replies\":[],\"datetime\":\"2020-10-19T05:04:22.727Z\"},{\"userId\":1,\"content\":\"email\",\"replies\":[],\"datetime\":\"2020-10-19T05:06:58.048Z\"},{\"userId\":1,\"content\":\"test\",\"replies\":[],\"datetime\":\"2020-10-19T05:10:41.170Z\"},{\"userId\":1,\"content\":\"1111\",\"replies\":[],\"datetime\":\"2020-10-19T05:11:06.362Z\"},{\"userId\":1,\"content\":\"test\",\"replies\":[],\"datetime\":\"2020-10-19T05:11:26.088Z\"}]",
+      "Modified": "2021-01-18T11:39:17+11:00"
+    }
+  ],
+  "Product%20Schedule": [
+    {
+      "Title": "123123",
+      "Id": 1,
+      "RequesterId": 1,
+      "ProposedPublicationDate": "2020-09-29T00:00:00.000Z",
+      "ScheduledPublicationDate": "2020-11-29T00:00:00Z",
+      "Sources": "123123",
+      "ProductPortalPurpose": "123123",
+      "ProductQuestion": "123123",
+      "InfoRequirements": "123123",
+      "ProductCategory": "Biography",
+      "SecurityClassification": 1,
+      "SecurityCaveat": 1,
+      "SecurityReleasability": 1,
+      "ProductLeadAnalysts": "[]",
+      "Branches": "[\"Official: Sensitive\"]",
+      "Cancelled": false,
+      "ProductComments": "[]",
+      "Modified": "2020-11-05T06:44:44+00:00"
+    },
+    {
+      "Title": "123",
+      "RequesterId": 1,
+      "ProposedPublicationDate": "2020-10-12",
+      "ScheduledPublicationDate": "2020-10-06",
+      "Sources": "",
+      "ProductPortalPurpose": "",
+      "ProductQuestion": "",
+      "InfoRequirements": "",
+      "Cancelled": false,
+      "ProductCategory": "National Assessment",
+      "SecurityClassification": 0,
+      "SecurityCaveat": "",
+      "SecurityReleasability": "",
+      "ProductLeadAnalyst": "",
+      "ProductLeadAnalystId": null,
+      "Branches": "[\"Official\"]",
+      "_attachments": {
+        "add": [],
+        "remove": [],
+        "current": []
+      },
+      "Id": 3,
+      "ProductComments": "[]",
+      "Modified": "2020-10-20T18:21:22+11:00"
+    },
+    {
+      "ProductLeadAnalysts": "[1]",
+      "Title": "1234",
+      "RequesterId": 1,
+      "ProposedPublicationDate": "2020-10-12",
+      "ScheduledPublicationDate": "2020-10-26",
+      "Sources": "",
+      "ProductPortalPurpose": "",
+      "ProductQuestion": "",
+      "InfoRequirements": "",
+      "Cancelled": false,
+      "ProductCategory": "Outreach Report",
+      "SecurityClassification": "Official",
+      "SecurityCaveat": "",
+      "SecurityReleasability": "",
+      "ProductLeadAnalyst": "",
+      "ProductLeadAnalystId": null,
+      "Branches": "[\"Official: Sensitive\"]",
+      "_attachments": {
+        "add": [],
+        "remove": [],
+        "current": []
+      },
+      "Id": 4,
+      "ProductComments": "[{\"userId\":1,\"content\":\"test\",\"replies\":[{\"userId\":1,\"content\":\"test\",\"datetime\":\"2020-10-16T00:27:33.069Z\"},{\"userId\":1,\"content\":\"test\",\"datetime\":\"2020-10-16T00:27:09.481Z\"},{\"userId\":1,\"content\":\"wasdadasd\",\"datetime\":\"2020-10-16T00:26:40.186Z\"},{\"userId\":1,\"content\":\"test23\",\"datetime\":\"2020-10-16T00:26:32.408Z\"}],\"datetime\":\"2020-10-16T00:26:27.715Z\"},{\"userId\":1,\"content\":\"test\",\"replies\":[],\"datetime\":\"2020-10-16T00:27:46.029Z\"},{\"userId\":1,\"content\":\"asdfasdfasdfads\",\"replies\":[],\"datetime\":\"2020-10-23T06:13:18.000Z\"},{\"userId\":1,\"content\":\"234234234234234\",\"replies\":[],\"datetime\":\"2020-10-23T06:13:42.500Z\"},{\"userId\":1,\"content\":\"23423rsdfsdf\",\"replies\":[],\"datetime\":\"2020-10-23T06:22:29.900Z\"},{\"userId\":1,\"content\":\"asdfsdfasdf\",\"replies\":[],\"datetime\":\"2020-10-23T06:22:33.900Z\"},{\"userId\":1,\"content\":\"fadsasdfasdfasdf\",\"replies\":[],\"datetime\":\"2020-10-23T06:22:46.200Z\"},{\"userId\":1,\"content\":\"test\",\"replies\":[],\"datetime\":\"2020-10-23T06:44:32.700Z\"},{\"userId\":1,\"content\":\"123123123\",\"replies\":[],\"datetime\":\"2020-10-23T06:44:38.000Z\"},{\"userId\":1,\"content\":\"test\",\"replies\":[],\"datetime\":\"2020-10-23T06:45:26.500Z\"},{\"userId\":1,\"content\":\"test\",\"replies\":[],\"datetime\":\"2020-10-23T07:00:29.400Z\"},{\"userId\":1,\"content\":\"234\",\"replies\":[],\"datetime\":\"2020-10-23T07:09:18.500Z\"}]",
+      "Modified": "2020-10-23T07:09:18+00:00"
+    },
+    {
+      "Title": "123",
+      "Id": 5,
+      "RequesterId": 1,
+      "ProposedPublicationDate": "2020-10-12",
+      "ScheduledPublicationDate": "2020-10-22",
+      "Sources": "",
+      "ProductPortalPurpose": "1",
+      "ProductQuestion": "",
+      "InfoRequirements": "",
+      "ProductCategory": "National Assessment",
+      "SecurityClassification": "Official",
+      "SecurityCaveat": "",
+      "SecurityReleasability": "",
+      "ProductLeadAnalysts": "[1]",
+      "Branches": "[\"Official\"]",
+      "Cancelled": true,
+      "ProductComments": "[{\"userId\":1,\"content\":\"test\",\"replies\":[{\"userId\":1,\"content\":\"4444\",\"datetime\":\"2020-10-16T00:00:04.838Z\"},{\"userId\":1,\"content\":\"3333\",\"datetime\":\"2020-10-15T23:59:01.924Z\"},{\"userId\":1,\"content\":\"2222\",\"datetime\":\"2020-10-15T23:54:17.348Z\"},{\"userId\":1,\"content\":\"111\",\"datetime\":\"2020-10-15T23:52:33.872Z\"},{\"userId\":1,\"content\":\"4444\",\"datetime\":\"2020-10-15T23:51:46.614Z\"},{\"userId\":1,\"content\":\"333\",\"datetime\":\"2020-10-15T23:51:11.581Z\"},{\"userId\":1,\"content\":\"333\",\"datetime\":\"2020-10-15T23:48:58.087Z\"},{\"userId\":1,\"content\":\"2222\",\"datetime\":\"2020-10-15T23:46:48.875Z\"},{\"userId\":1,\"content\":\"1111\",\"datetime\":\"2020-10-15T23:45:53.977Z\"},{\"userId\":1,\"content\":\"test\",\"datetime\":\"2020-10-15T23:45:29.655Z\"},{\"userId\":1,\"content\":\"test222\",\"datetime\":\"2020-10-15T23:35:13.246Z\"},{\"userId\":1,\"content\":\"test\",\"datetime\":\"2020-10-15T23:34:43.193Z\"},{\"userId\":1,\"content\":\"11111\",\"datetime\":\"2020-10-15T23:34:08.572Z\"}]}]",
+      "Modified": "2020-10-26T06:55:30+00:00"
+    },
+    {
+      "Title": "test111213",
+      "Id": 6,
+      "RequesterId": 1,
+      "ProposedPublicationDate": "2020-10-16",
+      "ScheduledPublicationDate": "2020-11-12",
+      "Sources": "",
+      "ProductPortalPurpose": "",
+      "ProductQuestion": "",
+      "InfoRequirements": "",
+      "ProductCategory": "National Assessment",
+      "SecurityClassification": "Official",
+      "SecurityCaveat": "",
+      "SecurityReleasability": "",
+      "ProductLeadAnalysts": "[{\"id\":1,\"title\":\"Daniel Nardi\"},{\"id\":2,\"title\":\"Daniel Nardi2\"}]",
+      "Branches": "[\"Official\"]",
+      "Cancelled": true,
+      "ProductComments": "[{\"userId\":1,\"content\":\"dsfsddsfdsfsdf\",\"replies\":[],\"datetime\":\"2020-11-04T02:27:29.900Z\"},{\"userId\":1,\"content\":\"asdfasdfsf\",\"replies\":[{\"userId\":1,\"content\":\"fasdfasdfasdf\",\"datetime\":\"2020-11-04T02:28:58.000Z\"}],\"datetime\":\"2020-11-04T02:28:23.700Z\"}]",
+      "Modified": "2020-11-05T05:56:10+00:00"
+    },
+    {
+      "Title": "test1111",
+      "Id": 7,
+      "RequesterId": 1,
+      "ProposedPublicationDate": "2020-10-22",
+      "ScheduledPublicationDate": "2020-10-29",
+      "Sources": "",
+      "ProductPortalPurpose": "",
+      "ProductQuestion": "",
+      "InfoRequirements": "",
+      "ProductCategory": "Intelligence Assessment",
+      "SecurityClassification": "Official",
+      "SecurityCaveat": "",
+      "SecurityReleasability": "",
+      "ProductLeadAnalysts": "[]",
+      "Branches": "[\"Official\",\"Official: Sensitive\"]",
+      "Cancelled": false,
+      "ProductComments": "[{\"userId\":1,\"content\":\"test\",\"replies\":[],\"datetime\":\"2020-10-16T00:02:29.311Z\"},{\"userId\":1,\"content\":\"123\",\"replies\":[{\"userId\":1,\"content\":\"test\",\"datetime\":\"2020-10-16T00:13:10.138Z\"},{\"userId\":1,\"content\":\"test\",\"datetime\":\"2020-10-16T00:11:25.286Z\"},{\"userId\":1,\"content\":\"test\",\"datetime\":\"2020-10-16T00:11:05.605Z\"},{\"userId\":1,\"content\":\"test\",\"datetime\":\"2020-10-16T00:10:55.151Z\"},{\"userId\":1,\"content\":\"asdfasdfas\",\"datetime\":\"2020-10-16T00:10:12.880Z\"},{\"userId\":1,\"content\":\"test\",\"datetime\":\"2020-10-16T00:08:56.222Z\"},{\"userId\":1,\"content\":\"123sddsadasd\",\"datetime\":\"2020-10-16T00:06:11.485Z\"},{\"userId\":1,\"content\":\"wahoooo\",\"datetime\":\"2020-10-16T00:05:37.466Z\"},{\"userId\":1,\"content\":\"22222\",\"datetime\":\"2020-10-16T00:05:10.433Z\"},{\"userId\":1,\"content\":\"1111\",\"datetime\":\"2020-10-16T00:05:03.789Z\"},{\"userId\":1,\"content\":\"test\",\"datetime\":\"2020-10-16T00:04:43.113Z\"},{\"userId\":1,\"content\":\"test\",\"datetime\":\"2020-10-16T00:04:37.141Z\"},{\"userId\":1,\"content\":\"1111\",\"datetime\":\"2020-10-16T00:03:57.548Z\"}],\"datetime\":\"2020-10-16T00:03:41.874Z\"},{\"userId\":1,\"content\":\"test\",\"replies\":[{\"userId\":1,\"content\":\"test\",\"datetime\":\"2020-10-16T11:44:32.805Z\"}],\"datetime\":\"2020-10-16T00:14:34.139Z\"},{\"userId\":1,\"content\":\"wahooo\",\"replies\":[],\"datetime\":\"2020-10-16T00:38:38.040Z\"},{\"userId\":1,\"content\":\"test1111\",\"replies\":[],\"datetime\":\"2020-10-16T07:21:53.938Z\"},{\"userId\":1,\"content\":\"test\",\"replies\":[{\"userId\":1,\"content\":\"wahoo\",\"datetime\":\"2020-10-16T13:42:27.672Z\"}],\"datetime\":\"2020-10-16T13:42:21.004Z\"},{\"userId\":1,\"content\":\"why no schedule yet\",\"replies\":[],\"datetime\":\"2020-10-19T04:24:43.705Z\"},{\"userId\":1,\"content\":\"test\",\"replies\":[],\"datetime\":\"2020-10-19T05:13:09.071Z\"}]",
+      "Modified": "2020-10-30T11:49:32+11:00"
+    },
+    {
+      "Title": "test22 2234test222 234test222234test 222234test222",
+      "Id": 10,
+      "RequesterId": 2,
+      "ProposedPublicationDate": "2020-10-27",
+      "ScheduledPublicationDate": "2020-10-31",
+      "Sources": "",
+      "ProductPortalPurpose": "",
+      "ProductQuestion": "",
+      "InfoRequirements": "",
+      "ProductCategory": "Intelligence Assessment",
+      "SecurityClassification": "Official",
+      "SecurityCaveat": "",
+      "SecurityReleasability": "",
+      "ProductLeadAnalysts": "[1]",
+      "Branches": "[\"Official: Sensitive\"]",
+      "Cancelled": true,
+      "ProductComments": "[]",
+      "Modified": "2020-10-30T11:11:18+11:00"
+    },
+    {
+      "Title": "asdfsdfdasf",
+      "Id": 11,
+      "RequesterId": 1,
+      "ProposedPublicationDate": "2020-11-18",
+      "ScheduledPublicationDate": "2020-11-12",
+      "Sources": "",
+      "ProductPortalPurpose": "",
+      "ProductQuestion": "",
+      "InfoRequirements": "",
+      "ProductCategory": "Intelligence Brief",
+      "SecurityClassification": "Official",
+      "SecurityCaveat": "",
+      "SecurityReleasability": "",
+      "ProductLeadAnalysts": "[{\"id\":2,\"title\":\"Daniel Nardi2\"}]",
+      "Branches": "[\"Official\",\"Official: Sensitive\"]",
+      "Cancelled": false,
+      "ProductComments": "[]",
+      "Modified": "2020-11-05T05:55:33+00:00"
+    },
+    {
+      "Title": "sdffdsdfs",
+      "Id": 12,
+      "RequesterId": 1,
+      "ProposedPublicationDate": "2020-11-20",
+      "ScheduledPublicationDate": "2020-11-12",
+      "Sources": "",
+      "ProductPortalPurpose": "",
+      "ProductQuestion": "",
+      "InfoRequirements": "",
+      "ProductCategory": "Intelligence Brief",
+      "SecurityClassification": "Official",
+      "SecurityCaveat": "",
+      "SecurityReleasability": "",
+      "ProductLeadAnalysts": "[{\"id\":1,\"title\":\"Daniel Nardi\"}]",
+      "Branches": "[\"Official\"]",
+      "Cancelled": false,
+      "ProductComments": "[]",
+      "Modified": "2020-11-05T05:56:08+00:00"
+    },
+    {
+      "Title": "test something super long but like even longer",
+      "Id": 13,
+      "RequesterId": 1,
+      "ProposedPublicationDate": "2020-11-12",
+      "ScheduledPublicationDate": "2020-11-12",
+      "Sources": "",
+      "ProductPortalPurpose": "",
+      "ProductQuestion": "",
+      "InfoRequirements": "",
+      "ProductCategory": "Intelligence Brief",
+      "SecurityClassification": "Official",
+      "SecurityCaveat": "",
+      "SecurityReleasability": "",
+      "ProductLeadAnalysts": "[{\"id\":1,\"title\":\"Daniel Nardi\"}]",
+      "Branches": "[\"Official\",\"Official: Sensitive\"]",
+      "Cancelled": false,
+      "ProductComments": "[]",
+      "Modified": "2020-11-05T05:51:07+00:00"
+    },
+    {
+      "Title": "asdfasdfasdfasdf",
+      "Id": 14,
+      "RequesterId": 1,
+      "ProposedPublicationDate": "2020-11-18T00:00:00.000Z",
+      "ScheduledPublicationDate": "2020-11-12T00:00:00.000Z",
+      "Sources": "",
+      "ProductPortalPurpose": "",
+      "ProductQuestion": "",
+      "InfoRequirements": "",
+      "ProductCategory": "Intelligence Assessment",
+      "SecurityClassification": "Official",
+      "SecurityCaveat": "",
+      "SecurityReleasability": "",
+      "ProductLeadAnalysts": "[{\"id\":1,\"title\":\"Daniel Nardi\"}]",
+      "Branches": "[\"Official: Sensitive\"]",
+      "Cancelled": true,
+      "ProductComments": "[]",
+      "Modified": "2020-11-23T03:14:54+00:00"
+    },
+    {
+      "Title": "asdfadsfasdfasd32 234 23423 423",
+      "Id": 15,
+      "RequesterId": 2,
+      "ProposedPublicationDate": "2020-11-12T00:00:00.000Z",
+      "ScheduledPublicationDate": "2020-11-24T00:00:00.000Z",
+      "Sources": "",
+      "ProductPortalPurpose": "",
+      "ProductQuestion": "",
+      "InfoRequirements": "",
+      "ProductCategory": "Intelligence Brief",
+      "SecurityClassification": "Official",
+      "SecurityCaveat": "",
+      "SecurityReleasability": "",
+      "ProductLeadAnalysts": "[{\"id\":1,\"title\":\"Daniel Nardi\"}]",
+      "Branches": "[\"Official: Sensitive\"]",
+      "Cancelled": false,
+      "ProductComments": "[]",
+      "Modified": "2020-11-23T04:06:28+00:00"
+    },
+    {
+      "Title": "jkh23klj4 l23k",
+      "Id": 16,
+      "RequesterId": 1,
+      "ProposedPublicationDate": "2020-11-18T00:00:00.000Z",
+      "ScheduledPublicationDate": null,
+      "Sources": "",
+      "ProductPortalPurpose": "",
+      "ProductQuestion": "",
+      "InfoRequirements": "",
+      "ProductCategory": "Intelligence Assessment",
+      "SecurityClassification": "Official",
+      "SecurityReleasability": "",
+      "ProductLeadAnalysts": "[{\"id\":2,\"title\":\"Daniel Nardi2\"}]",
+      "Branches": "[\"Official\"]",
+      "Cancelled": false,
+      "Published": false,
+      "ProductComments": "[]",
+      "Modified": "2021-01-07T05:22:20+00:00"
+    },
+    {
+      "Title": "tesfdfsdfdsf",
+      "Id": 17,
+      "RequesterId": 2,
+      "ProposedPublicationDate": "2020-11-17T00:00:00.000Z",
+      "ScheduledPublicationDate": "1970-01-01T00:00:00.000Z",
+      "Sources": "",
+      "ProductPortalPurpose": "",
+      "ProductQuestion": "",
+      "InfoRequirements": "",
+      "ProductCategory": "Intelligence Assessment",
+      "SecurityClassification": "Official: Sensitive",
+      "SecurityReleasability": "",
+      "ProductLeadAnalysts": "[{\"id\":1,\"title\":\"Daniel Nardi\"}]",
+      "Branches": "[\"Official\",\"Official: Sensitive\"]",
+      "Cancelled": false,
+      "Published": false,
+      "ProductComments": "[]",
+      "SecurityCaveatJSON": "[\"\",\"Sensitive: Personal\"]",
+      "Modified": "2020-12-11T02:33:23+00:00"
+    },
+    {
+      "Title": "qwerty1234",
+      "Id": 18,
+      "RequesterId": 1,
+      "ProposedPublicationDate": "2020-11-24T13:00:00.000Z",
+      "ScheduledPublicationDate": null,
+      "Sources": "",
+      "ProductPortalPurpose": "",
+      "ProductQuestion": "",
+      "InfoRequirements": "",
+      "ProductCategory": "Intelligence Brief",
+      "SecurityClassification": "Official",
+      "SecurityReleasability": "",
+      "ProductLeadAnalysts": "[{\"id\":1,\"title\":\"Daniel Nardi\"}]",
+      "Branches": "[\"Official: Sensitive\"]",
+      "Cancelled": false,
+      "Published": false,
+      "ProductComments": "[{\"userId\":1,\"content\":\"blah\",\"replies\":[],\"datetime\":\"2021-01-12T03:13:35.228Z\"},{\"userId\":1,\"content\":\"123\",\"replies\":[],\"datetime\":\"2021-01-13T05:08:08.222Z\"},{\"userId\":1,\"content\":\"456\",\"replies\":[{\"userId\":1,\"content\":\"1234\",\"datetime\":\"2021-01-13T06:00:35.932Z\"},{\"userId\":1,\"content\":\"123\",\"datetime\":\"2021-01-13T05:09:09.216Z\"}],\"datetime\":\"2021-01-13T05:08:31.458Z\"},{\"userId\":1,\"content\":\"777\",\"replies\":[],\"datetime\":\"2021-01-13T05:08:33.513Z\"},{\"userId\":1,\"content\":\"888\",\"replies\":[],\"datetime\":\"2021-01-13T05:09:24.138Z\"}]",
+      "SecurityCaveatJSON": "[]",
+      "Modified": "2021-01-13T17:00:44+11:00"
+    },
+    {
+      "Title": "11lkj23 4lkj42ljk3 23l4jk lk234 jl23k j4lk23j l23kj 23l4k j23lk4 j23lk4j23lkj lkj lk11sa dfasd fasdf",
+      "Id": 19,
+      "RequesterId": 1,
+      "ProposedPublicationDate": "2020-11-23T00:00:00.000Z",
+      "ScheduledPublicationDate": "2020-12-01T00:00:00.000Z",
+      "Sources": "",
+      "ProductPortalPurpose": "",
+      "ProductQuestion": "",
+      "InfoRequirements": "",
+      "ProductCategory": "Outreach Report",
+      "SecurityClassification": "Official",
+      "SecurityReleasability": "",
+      "ProductLeadAnalysts": "[{\"id\":1,\"title\":\"Daniel Nardi\"}]",
+      "Branches": "[\"Official: Sensitive\"]",
+      "Cancelled": false,
+      "Published": true,
+      "ProductComments": "[]",
+      "SecurityCaveatJSON": "[\"\"]",
+      "Modified": "2020-12-11T02:48:41+00:00"
+    },
+    {
+      "Title": "333",
+      "Id": 20,
+      "RequesterId": 1,
+      "ProposedPublicationDate": "2020-11-26T00:00:00.000Z",
+      "ScheduledPublicationDate": "2020-12-15T00:00:00.000Z",
+      "Sources": "",
+      "ProductPortalPurpose": "",
+      "ProductQuestion": "",
+      "InfoRequirements": "",
+      "ProductCategory": "Intelligence Assessment",
+      "SecurityClassification": "Official",
+      "SecurityReleasability": "",
+      "ProductLeadAnalysts": "[{\"id\":1,\"title\":\"Daniel Nardi\"}]",
+      "Branches": "[\"Official\"]",
+      "Cancelled": true,
+      "Published": false,
+      "ProductComments": "[{\"userId\":1,\"content\":\"asdsdasd\",\"replies\":[{\"userId\":1,\"content\":\"test\",\"datetime\":\"2020-11-23T04:16:16.900Z\"}],\"datetime\":\"2020-11-23T04:08:19.400Z\"},{\"userId\":1,\"content\":\"234234234\",\"replies\":[],\"datetime\":\"2020-11-23T04:14:08.600Z\"},{\"userId\":1,\"content\":\"adfasdfdasf\",\"replies\":[],\"datetime\":\"2020-11-23T04:16:25.600Z\"},{\"userId\":1,\"content\":\"adfasdfdasf\",\"replies\":[],\"datetime\":\"2020-11-23T04:16:25.600Z\"},{\"userId\":1,\"content\":\"111111\",\"replies\":[],\"datetime\":\"2020-11-23T04:22:08.800Z\"},{\"userId\":1,\"content\":\"32333\",\"replies\":[],\"datetime\":\"2020-11-23T04:22:42.900Z\"},{\"userId\":1,\"content\":\"32333\",\"replies\":[],\"datetime\":\"2020-11-23T04:22:42.900Z\"},{\"userId\":1,\"content\":\"test\",\"replies\":[],\"datetime\":\"2020-11-23T04:24:38.400Z\"},{\"userId\":1,\"content\":\"aaaaaaa\",\"replies\":[],\"datetime\":\"2020-11-23T04:26:03.400Z\"},{\"userId\":1,\"content\":\"333333333\",\"replies\":[],\"datetime\":\"2020-11-23T04:27:10.100Z\"},{\"userId\":1,\"content\":\"234\",\"replies\":[],\"datetime\":\"2020-11-23T04:30:27.000Z\"},{\"userId\":1,\"content\":\"qwe\",\"replies\":[],\"datetime\":\"2020-11-23T04:30:49.600Z\"},{\"userId\":1,\"content\":\"123\",\"replies\":[],\"datetime\":\"2020-11-23T04:35:15.400Z\"},{\"userId\":1,\"content\":\"5555\",\"replies\":[],\"datetime\":\"2020-11-23T04:36:58.900Z\"}]",
+      "SecurityCaveatJSON": "[\"Sensitive: Personal\"]",
+      "Modified": "2020-12-11T02:11:10+00:00"
+    }
+  ]
+}

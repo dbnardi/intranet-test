@@ -1,0 +1,227 @@
+@import "./material-kit/colors";
+$menu-appears-width: 1814px; // share a breakpoint with _mobile-menu.css
+
+nav{
+  height: 67px;
+}
+
+.mega-menu-container {
+  // left-align
+  flex-grow: 1;
+  padding-left: 5px;
+
+  @media only screen and (max-width: $menu-appears-width) {
+    display: none;
+  }
+
+  *,
+  :after,
+  :before {
+    box-sizing: border-box
+  }
+  
+  .clearfix:after,
+  .clearfix:before {
+    content: '';
+    display: table
+  }
+  
+  .clearfix:after {
+    clear: both;
+    display: block
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .md-icon {
+    color: $theme-secondary !important;
+  }
+
+  a,
+  a:hover,
+  a.active,
+  a:active,
+  a:visited,
+  a:focus {
+    color: #fff !important;
+    text-decoration: none;
+  }
+
+  .content {
+    margin: 50px 100px 0px 100px;
+  }
+
+  .exo-menu {
+    list-style: none;
+    position: relative;
+    text-align: center;
+
+    li.hamburger{
+      display: none;
+    }
+
+    .mega-menu {
+      right: 0;
+      padding: 15px;
+      background-color: #fff;
+      min-height: 100%;
+      display: none;
+      width:70vw;
+      
+      .mega-menu-wrap .md-layout-item{
+        flex-basis: 25%;
+        flex-grow: 0;
+        margin-bottom: 20px;
+        text-align: left;
+      }
+
+      ul.stander{
+        li{
+          font-size:1rem;
+          min-width: 300px;
+          max-width: 300px;
+          a {
+            line-height: 25px;
+            font-size: 90%;
+            padding: 3px 0px;
+            color: $theme-font-dark !important;
+  
+            &:hover{
+              border-bottom: 1px solid $theme-secondary;
+              padding-bottom: 2px;
+            }
+          }
+        }
+      } 
+  
+      .mega-title a {
+        color: $theme-secondary !important;
+        margin-top: 0px;
+        font-size: 14px;
+        padding-bottom: 13px;
+        text-transform: uppercase;
+        padding-top: 15px;
+        font-weight: 500;
+    
+        &:hover{
+          border-bottom: 1px solid $theme-secondary;
+          padding-bottom: 2px;
+        }
+      }
+    }
+
+    i {
+      float: left;
+      font-size: 18px;
+      margin-right: 6px;
+      line-height: 20px !important;
+      margin-top: -3px;
+    }
+
+    >li {
+      display: inline-block;
+      font-size:1rem;
+
+      >a {
+        color: #fff;
+        text-decoration: none;
+        -webkit-transition: color 0.2s linear, background 0.2s linear;
+        -moz-transition: color 0.2s linear, background 0.2s linear;
+        -o-transition: color 0.2s linear, background 0.2s linear;
+        transition: color 0.2s linear, background 0.2s linear;
+      }
+  
+      .mega-title{
+        margin:0;
+      }
+    }
+  }
+
+  .exo-menu>li>a.active,
+  .exo-menu>li>a:hover,
+  li.drop-down ul>li>a:hover {
+    color: #fff;
+  }
+
+
+  /*hover*/
+  .first-level:hover ~.mega-menu,
+  .mega-menu:hover {
+    display: block;
+    z-index: 100;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  .mega-drop-down > a:hover {
+    background-color: #fff;
+    color: $theme-font-dark !important;
+  }
+
+  /*responsive*/
+
+  @media (min-width:767px) {
+    .exo-menu>li>a {
+      display: block;
+      padding: 25px 10px;
+    }
+
+    
+
+    .mega-menu,
+    .flyout-mega-wrap,
+    .Images,
+    .Blog,
+    .flyout-right>ul,
+    .flyout-left>ul,
+    li.drop-down>ul {
+      position: absolute;
+    }
+
+    .flyout-right>ul {
+      left: 100%;
+    }
+
+    .flyout-left>ul {
+      right: 100%;
+    }
+  }
+
+  @media (max-width:1500px) {
+
+    .exo-menu {
+      min-height: 58px;
+      background-color: #23364B;
+      width: 100%;
+
+      >li{
+        display: none;
+
+        &.hamburger {
+          float: right;
+          display: block;
+        }
+      }
+    }
+
+    .exo-menu>li>a {
+      width: 100%;
+      display: none;
+    }
+
+    .exo-menu>li {
+      width: 100%;
+    }
+
+    .display.exo-menu>li>a {
+      display: block;
+      padding: 20px 22px;
+    }
+
+    .mega-menu {
+      position: relative;
+    }
+  }
+}

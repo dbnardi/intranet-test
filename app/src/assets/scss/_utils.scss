@@ -1,0 +1,200 @@
+// Crazy mixin to generate margins and paddings
+$max: 50;
+$offset: 5;
+$unit: 'px'; // Feel free to change the unit.
+
+@mixin list-loop($className, $styleName) {
+  $i: 0;
+
+  @while $i <=$max {
+    #{$className + $i} {
+      #{$styleName}: #{$i + $unit} !important;
+    }
+
+    $i: $i+$offset;
+  }
+}
+
+// Paddings
+@include list-loop('.p-', 'padding');
+@include list-loop('.pl-', 'padding-left');
+@include list-loop('.pr-', 'padding-right');
+@include list-loop('.pt-', 'padding-top');
+@include list-loop('.pb-', 'padding-bottom');
+
+//Margins
+@include list-loop('.m-', 'margin');
+@include list-loop('.ml-', 'margin-left');
+@include list-loop('.mr-', 'margin-right');
+@include list-loop('.mt-', 'margin-top');
+@include list-loop('.mb-', 'margin-bottom');
+
+//end generic margins and padding
+
+
+.content-left {
+  justify-content: left;
+}
+
+.bg-color {
+  &-primary {
+    background-color: $brand-primary !important;
+  }
+
+  &-grey {
+    background-color: $grey-300;
+  }
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+.lowercase{
+  text-transform: lowercase;
+}
+
+.overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  top: -500px;
+  left: -500px;
+  opacity: 0.5;
+  z-index: 9;
+  height: 1000vh;
+  width: 1000vw;
+}
+
+
+
+.loader-container {
+  position: fixed;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+}
+
+
+//START SPINNER ANIMATION
+.spinner-container {
+  width: 100px;
+  height: 100px;
+
+  animation: spinner-container 2.5s infinite linear both;
+}
+
+.loadMessage {
+  margin-top: 20px;
+}
+
+.spinner-dot {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  animation: spinner-dot 2s infinite ease-in-out both;
+}
+
+.spinner-dot:before {
+  content: "";
+  display: block;
+  width: 25%;
+  height: 25%;
+  background-color: #0d5257;
+  border-radius: 100%;
+  animation: spinner-dot-before 2s infinite ease-in-out both;
+}
+
+.spinner-dot:nth-child(1) {
+  animation-delay: -1.1s;
+}
+
+.spinner-dot:nth-child(2) {
+  animation-delay: -1s;
+}
+
+.spinner-dot:nth-child(3) {
+  animation-delay: -0.9s;
+}
+
+.spinner-dot:nth-child(4) {
+  animation-delay: -0.8s;
+}
+
+.spinner-dot:nth-child(5) {
+  animation-delay: -0.7s;
+}
+
+.spinner-dot:nth-child(6) {
+  animation-delay: -0.6s;
+}
+
+.spinner-dot:nth-child(1):before {
+  animation-delay: -1.1s;
+}
+
+.spinner-dot:nth-child(2):before {
+  animation-delay: -1s;
+}
+
+.spinner-dot:nth-child(3):before {
+  animation-delay: -0.9s;
+}
+
+.spinner-dot:nth-child(4):before {
+  animation-delay: -0.8s;
+}
+
+.spinner-dot:nth-child(5):before {
+  animation-delay: -0.7s;
+}
+
+.spinner-dot:nth-child(6):before {
+  animation-delay: -0.6s;
+}
+
+@keyframes spinner-container {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spinner-dot {
+
+  80%,
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spinner-dot-before {
+  50% {
+    transform: scale(0.4);
+  }
+
+  100%,
+  0% {
+    transform: scale(1);
+  }
+}
+
+//END SPINNER
+
+.bold{
+  font-family: Sofia Pro Regular !important;
+}
+
+.pointer{
+  cursor:pointer;
+}
+
+.summary-links-wp{
+  img{
+    width:auto !important;
+  }
+}
+
+iframe:not(.md-image){
+  height: inherit;
+}

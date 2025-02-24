@@ -1,0 +1,52 @@
+@import "./material-kit/colors";
+
+.vue-simple-drawer {
+    background: white !important;
+    color: $theme-primary !important;
+    padding: inherit !important;
+    width: 310px !important;
+
+    .nav-tabs {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        button {
+            border: 1px solid lightgrey;
+        }
+
+        .md-list-item {
+            width: 105px;
+            margin-top: 10px;
+        }
+    }
+}
+
+.toolbox-with-scroll-bar{
+  right:12px !important;
+}
+
+.md-button.btn-home-edit {
+    position: fixed;
+    height: 100%;
+    width: 20px;
+    right: -3px;
+    left: auto;
+    top: 45px;
+    z-index: 399;
+
+    i {
+      font-size: 1.8em !important;
+      transform: rotate(180deg);
+      writing-mode: lr-tb;
+    }
+  
+    &--open {
+      right: 300px;
+  
+      i {
+        transform: inherit;
+      }
+    }
+  }
+  
